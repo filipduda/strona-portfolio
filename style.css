@@ -1,0 +1,546 @@
+body{
+    margin: 0px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+                                        /* NAWIGACJA */
+
+nav{
+    background-color: #F1F1F1;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav div{
+    display: inline-block;
+}
+
+div.logo{
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+nav div.logo img{
+   
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    display: inline-block;
+}
+
+nav div.logo p{
+    margin: 0px;
+    margin-left: 20px;
+    padding: 0px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: left;
+}
+
+nav div.logo p span{
+    font-weight: bold;
+}
+
+nav ul{
+    margin: 0px;
+    margin-left: 300px;
+    padding: 0px 0px 0px 0px;
+    background-color: none
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: #F1F1F1;
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: rgb(21, 103, 255);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+                                        /* SLOGAN */
+
+div.slogan h3{
+    font-family: 'Work sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding: 45px 0px 45px 0px;
+}
+
+div.slogan h3 span{
+    color: #045cff;
+}
+
+div.slogan{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F1F1F1;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+                                        /* MAIN */
+
+main{
+    height: 100%;
+    width: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.mcenter{
+    padding: 0px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+                                        /* STOPKA */
+
+footer{
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+div.fcenter{
+    margin: 0px;
+}
+
+div.center{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer div.fcenter ul{
+    display: inline-block;
+}
+
+footer ul.dane{
+    list-style-type: none;
+    text-align: left;
+    margin: 0px;
+    margin-right: 200px;
+    padding: 0px;
+}
+
+footer ul.dane li{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+}
+
+footer ul.nawigacja{
+    list-style-type: none; 
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer ul.nawigacja li{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+}
+
+footer ul.nawigacja li a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+footer ul.nawigacja li a:hover{
+    color: rgb(21, 103, 255);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+footer ul.nawigacja li:hover:first-of-type{
+    color: white;
+    cursor: auto;
+}
+
+footer div.copy{
+    color: gray;
+    font-family: 'Work sans', sans-serif;
+    font-size: 12px;
+    padding: 30px;
+}
+
+footer span{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+                                        /* STRONA GŁÓWNA */
+
+                                        /* FORMULARZ */
+
+main p.zloz_zamowienie{
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+div.form{
+    width: 500px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    display: block;
+}
+
+form{
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+}
+
+fieldset{
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    margin: 0px;
+    width: 450px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+label{
+    display: block;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.email
+{
+    height: 30px;
+    font-size: 18px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea{
+    width: 450px;
+    font-size: 18px;
+    margin-right: 0px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    display: block;
+    height: 150px;
+    resize: none;
+}
+
+div.form form input{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 450px;
+    display: block;
+}
+
+div.form button{
+    background-color: rgb(21, 103, 255);
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: block;
+    letter-spacing: 1px;
+}
+
+div.form button:hover{
+    background-color: rgb(4, 92, 255);
+    box-shadow: 0px 5px 3px lightgray;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+                                        /* LEWA STRONA */
+
+div.leftside{
+    margin-right: 0px;
+    width: 500px;
+    padding-top: 60px;
+}
+
+.portfolio{
+    margin: 0px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    padding: 0px;
+    text-align: center;
+    display: block;
+}
+
+.portfolio p{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    padding-bottom: 0px;
+}
+
+div.portfolio a{
+    text-decoration: none;
+    display: block;
+}
+
+div.portfolio_button{
+    background-color: rgb(21, 103, 255);
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;;
+    border-radius: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 26px;
+    margin: 0px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+div.portfolio_button:hover{
+    background-color: rgb(4, 92, 255);
+    box-shadow: 0px 5px 3px lightgray;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+div.problem{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+div.problem a{
+    color: rgb(21, 103, 255);
+}
+
+div.problem p{
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+
+                                        /* O MNIE */
+
+img.avatar{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    margin-right: 40px;
+    display: block;
+    float: left;
+}
+
+div.opis{
+    width: 100%;
+    margin: 0px;
+}
+
+div.opis p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgb(58, 58, 58);
+    text-align: left;
+    margin: 0px;
+    display: block;
+    width: 800px;
+}
+
+div.omnie{
+    padding: 0px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.social{
+    width: 33%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+div.socials{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    width: 1000px;
+    height: 50px;
+}
+
+div.social img{
+    display: inline-block;
+}
+
+div.social p{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+                                        /* PORTFOLIO */
+
+.gallery{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img{
+    width: 230;
+    padding: 10px;
+    transition-duration: 0.3s;
+    border-radius: 10px;
+}
+
+.gallery img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+                                        /* CENNIK */
+
+table{
+    margin: auto;
+    margin-top: 80px;
+    text-align: left;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    border-spacing: 0px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+th{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    border: 1px solid #dfdfdf;
+    padding: 5px 50px 5px 15px;
+    font-size: 20px;
+}
+
+td{
+    border: 1px solid #dfdfdf;
+    padding: 5px 50px 5px 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+}
+
+div.zamowienie_button{
+    background-color: rgb(21, 103, 255);
+    color: white;
+    border: none;
+    padding: 10px 25px 10px 25px;;
+    border-radius: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 26px;
+    margin: 0px;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+div.zamowienie_button:hover{
+    background-color: rgb(4, 92, 255);
+    box-shadow: 0px 5px 3px lightgray;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+div.zamow a{
+    text-decoration: none; 
+}
+
+div.dowiedz_sie_wiecej{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 80px;
+}
+
+div.dowiedz_sie_wiecej a{
+    color: rgb(21, 103, 255);
+}
+
+div.dowiedz_sie_wiecej p{
+    font-family: 'Lato', sans-serif;
+    color: gray;
+}
+
+                                            /* KONTAKT */
+
+p.kontakt{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
